@@ -22,39 +22,64 @@ public class TestMainPage extends MainPage {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checkviewAmazonLogo();
     }
-
     @Test
     public void testviewSearchBox() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checkviewSearchBox();
     }
-
-  /*  @Test
-    public void testviewPersonal() {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkviewPersonal();
-    }
-
     @Test
-    public void testviewBusiness() {
+    public void testviewTodaysDeal() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkviewBusiness();
+        mainPage.checkviewTodaysDeal();
     }
-
     @Test
-    public void testviewCommercial() {
+    public void testYourAmazonDotCom() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkviewCommercial();
+        mainPage.checkYourAmazonDotCom();
     }
-
     @Test
-    public void testviewAbout() {
+    public void testGiftCards() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkviewAbout();
+        mainPage.checkGiftCards();
+    }
+    /*@Test
+    public void testWholeFoods() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkWholeFoods();
     }*/
+    @Test
+    public void testorders() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkorders();
+    }
+
+//    @Test
+//    public void emailphoneformobileaccounts() {
+//        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+//        }.getClass().getEnclosingMethod().getName()));
+//        mainPage.checkemailphoneformobileaccounts();
+//    }
+
+    @Test
+    public void newyear() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checknewyear();
+    }
+
+
+
+
+
+
+
+
+
+
 }
